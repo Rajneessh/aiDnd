@@ -38,20 +38,7 @@ with st.sidebar:
     st.divider()
 
     # Manual Dice Tray
-    st.subheader("🎲 Physical Dice Tray")
-    mod = st.number_input("Modifier", value=0, step=1, key="manual_mod")
-    if st.button("🎲 ROLL D20", use_container_width=True):
-        raw, total = roll_d20(mod)
-        st.session_state.last_roll = total
-        if raw == 20: 
-            st.balloons()
-            st.success(f"CRITICAL HIT! Total: {total}")
-        elif raw == 1:
-            st.error(f"CRITICAL FAIL! Total: {total}")
-        else:
-            st.info(f"Rolled: {raw} + {mod} = **{total}**")
-
-    st.divider()
+   
 
     # Location Intel
     st.subheader("📍 Location Intel")
