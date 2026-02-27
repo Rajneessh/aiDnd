@@ -1,4 +1,4 @@
-# 🏰 Project Hargrave: Autonomous Multi-Agent RPG Engine
+# 🏰 AIdnd: Autonomous Multi-Agent RPG Engine
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Frontend-Streamlit-FF4B4B.svg)](https://streamlit.io/)
